@@ -1,0 +1,27 @@
+/** @format */
+
+.nav-menu {
+  @media screen and (max-width: 768px) {
+    background-color: rgba(228, 228, 250, 0);
+    backdrop-filter: blur(0.7rem);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    li {
+      padding: 2rem;
+      list-style: none;
+    }
+
+    .link {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: large;
+      font-weight: 600;
+      font-style: Operator Mono Lig;
+    }
+  }
+}

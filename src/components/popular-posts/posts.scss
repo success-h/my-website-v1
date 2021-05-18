@@ -1,0 +1,123 @@
+/** @format */
+
+.section {
+  min-height: 80vh;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+
+  .glass {
+    width: 51em;
+    height: 21em;
+    box-shadow: 0 5px 10px #777;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    z-index: 51;
+    backdrop-filter: blur(5em);
+
+    @media screen and (max-width: 765px) {
+      width: 90%;
+      height: 45em;
+    }
+
+    @media screen and (max-width: 565px) {
+      height: 31em;
+    }
+
+    .text {
+      font-size: larger;
+      margin: 1rem 0rem -4rem 1.5rem;
+      padding: 0.7rem;
+      align-self: flex-start;
+      border-radius: 10px;
+      font-family: Operator Mono Lig;
+      font-weight: 700px;
+
+      @media screen and (max-width: 765px) {
+        margin: -2em 0rem -1rem 1.3rem;
+      }
+    }
+
+    .grid-container {
+      display: grid;
+      grid-gap: 1rem;
+      overflow: hidden;
+      justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      min-height: 20em;
+      width: 100%;
+
+      @media screen and (max-width: 765px) {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        height: 38em;
+      }
+
+      @media screen and (max-width: 565px) {
+        height: 26em;
+      }
+
+      .card {
+        height: 12em;
+        background-color: rgba(191, 217, 221, 0.349);
+        width: 21em;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: center;
+
+        @media screen and (max-width: 765px) {
+          width: 90%;
+          height: 17em;
+        }
+        @media screen and (max-width: 565px) {
+          width: 80%;
+          height: 10em;
+        }
+      }
+
+      #card-image {
+        background-image: url("../../image/Group1.jpg");
+        background-position-x: center;
+        background-size: cover;
+      }
+      #card-image2 {
+        background-image: url("../../image/Group\ 3.jpg");
+        background-position-x: center;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+
+  .circle-3 {
+    background-color: rgb(41, 255, 184);
+    position: absolute;
+
+    z-index: -50;
+
+    z-index: 1;
+    top: 900px;
+    border-radius: 50%;
+    width: 18em;
+    height: 18em;
+
+    @media screen and (max-width: 765px) {
+      width: 18em;
+      background-color: rgb(41, 255, 226);
+      height: 18em;
+    }
+  }
+}

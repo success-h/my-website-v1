@@ -1,0 +1,57 @@
+/** @format */
+.about-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80em;
+    width: 96vw;
+    overflow: hidden;
+
+    .image {
+      object-fit: cover;
+      align-self: flex-start;
+      background-position: center;
+      box-shadow: 0 5px 10px #777;
+      width: clamp(100px, 100%, 500px);
+      margin-bottom: 5rem;
+      overflow: hidden;
+      height: clamp(100px, 100%, 500px);
+    }
+
+    .text {
+      margin: 2rem;
+      min-height: 30em;
+      width: clamp(100px, 100%, 900px);
+      top: 40em;
+      background-color: rgb(163, 163, 163);
+      backdrop-filter: blur(4rem);
+      box-shadow: 0 5px 10px #777;
+      color: black;
+      padding: 1.3em;
+
+      h1 {
+        font-size: clamp(2rem, 5.3vw, 3rem);
+        font-family: "Ubuntu", sans-serif;
+        padding: 10px 0px;
+      }
+      p {
+        font-family: Operator Mono Lig;
+        font-size: clamp(1.2rem, 1.3vw, 2rem);
+        color: black;
+      }
+
+      .button {
+        margin: 2rem 0rem;
+      }
+    }
+  }
+}

@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
+
+// import Navbar from "./components/nav/navbar";
+import "./App.scss";
+import { useState } from "react";
+import { Route, Switch } from "react-router-dom";
+
+import Navbar from "./components/nav/navbar";
+import Sidebar from "./components/side-bar/side-bar";
+import HomePage from "./pages/homepage/home";
+import AboutPage from "./pages/about/about";
+import WorkPage from "./pages/works/works";
+import ContactPage from "./pages/contact/contactPage";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./components/theme/global-styles";
+import { lightTheme, darkTheme } from "./components/theme/theme";
+import Footer from "./components/footer/footer";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const [theme, setTheme] = useState("light");
+  const themeToggler = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+        <GlobalStyles />
+        <div>
+          <Navbar toggle={toggle} theme={themeToggler} />
+          <Sidebar isOpen={isOpen} toggle={toggle} />
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/works" component={WorkPage} />
+            <Route exact path="/contact" component={ContactPage} />
+          </Switch>
+        </div>
+        <Footer />
+      </ThemeProvider>
+    </>
   );
 }
 
