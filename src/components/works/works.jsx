@@ -8,11 +8,11 @@ import "./works.scss";
 
 const Works = ({ name, text, imageUrl, site, source }) => {
   useEffect(() => {
-    Aos.init({ duration: 1700, offset: 300 });
+    Aos.init({ duration: 2000, offset: 150 });
   }, []);
 
   return (
-    <body id="container" data-aos="zoom-in">
+    <body id="container" data-aos="fade-up">
       <div className="image">
         <img src={imageUrl} />
         <h1>{name}</h1>

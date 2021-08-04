@@ -1,11 +1,12 @@
 /** @format */
 .about-container {
-  min-height: 100vh;
-  width: 100vw;
+  min-height: 140vh;
+  margin: auto;
+  max-width: 80rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
+  margin-top: 8rem auto;
 
   .content {
     display: flex;
@@ -23,6 +24,7 @@
       box-shadow: 0 5px 10px #777;
       width: clamp(100px, 100%, 500px);
       margin-bottom: 5rem;
+      margin-top: 15rem;
       overflow: hidden;
       height: clamp(100px, 100%, 500px);
     }

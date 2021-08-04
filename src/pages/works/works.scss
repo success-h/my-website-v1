@@ -6,4 +6,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  
+  .space {
+    @media screen and (max-width: 789px) {
+      height: 6rem;
+      width: 100%;
+    }
+  }
 }

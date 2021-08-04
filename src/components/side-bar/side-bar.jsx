@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
-import "./side-bar.scss";
+import "./side-bar.css";
 
 const Icon = styled.div`
   position: absolute;

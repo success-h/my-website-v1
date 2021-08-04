@@ -1,10 +1,7 @@
 /** @format */
-import { SliderDataOne } from "../../data/image-data";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { useEffect } from "react";
 import CustomButton from "../custom-button/custom-button";
-import Posts from "../popular-posts/posts";
-import RecentPosts from "../recents/recent-posts";
 import Aos from "aos";
 import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
@@ -28,7 +25,7 @@ const Main = () => {
               I have worked with a number of client, both independently and
               through agencies, sometimes am fortunate to win some awards &
               recorgnition Currently improving customer & user experiences as a
-              Lead developer in a Real Estate Project{" "}
+              Lead developer in a Real Estate Project
             </p>
 
             <CustomButton primary="true">
@@ -38,8 +35,6 @@ const Main = () => {
           </div>
         </section>
       </section>
-      <Posts />
-      <RecentPosts imageData={SliderDataOne} />
     </div>
   );
 };

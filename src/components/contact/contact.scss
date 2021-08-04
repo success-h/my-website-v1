@@ -7,7 +7,7 @@
   justify-content: center;
   overflow: hidden;
   .wrapper {
-    background-color: rgb(56, 56, 65);
+    background-color: rgb(47, 47, 68);
     width: clamp(300px, 100vw, 500px);
     box-shadow: 0 15px 10px #777;
     margin: auto 1em;
@@ -26,13 +26,10 @@
       height: 20rem;
       align-items: center;
       h2 {
-        font-family: "Bigelow Rules";
-        font-size: 3rem;
+        font-size: 2rem;
         top: -5em;
         align-self: start;
-        color: rgb(175, 180, 178);
-        height: 2em;
-        width: 6em;
+        color: aqua;
       }
 
       h1 {
@@ -58,6 +55,9 @@
 
         .icon {
           font-size: x-large;
+          width: 30px;
+          height: 30px;
+          color: aqua;
         }
       }
     }

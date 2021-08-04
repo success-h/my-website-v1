@@ -1,7 +1,7 @@
 /** @format */
 
 // import Navbar from "./components/nav/navbar";
-import "./App.scss";
+import "./App.css";
 import { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 

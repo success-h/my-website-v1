@@ -8,6 +8,7 @@ const WorkPage = () => {
   const [workData] = useState(WORKS_DATA);
   return (
     <div className="works">
+      <div className="space"></div>
       {workData.map(({ name, text, id, imageUrl, site, source }) => (
         <Works
           key={id}

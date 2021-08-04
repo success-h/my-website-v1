@@ -9,17 +9,14 @@ const Footer = () => {
       <div className="content-wrap">
         <ul className="icons">
           <li>
-            <FaFacebook></FaFacebook>
+            <FaFacebook className='icon' />
           </li>
           <li>
-            <FaGithub></FaGithub>
+            <FaGithub className='icon' />
           </li>
           <li>
-            <FaLinkedin></FaLinkedin>
+            <FaLinkedin className='icon'/>
           </li>
-          <a href="mailto: successhycenth8@gmail.com?subject = Feedback&body = Message">
-            <HiMailOpen></HiMailOpen>
-          </a>
         </ul>
         <h1 className="my-name">SUCCESS HYCENTH</h1>
         <p>&copy; 2021 Success Hycenth</p>

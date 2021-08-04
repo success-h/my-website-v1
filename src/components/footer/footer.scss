@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(21, 21, 31);
   color: rgb(207, 203, 203);
   .content-wrap {
     display: flex;
@@ -17,14 +17,12 @@
     .icons {
       display: flex;
       li {
-        padding: 0em 1em;
+        padding: 0em 2em;
         color: white;
-      }
-
-      a {
-        padding: 0em 1em;
-        color: white;
-        text-decoration: none;
+        .icon {
+          width: 30px;
+          height: 30px;
+        }
       }
     }
   }
