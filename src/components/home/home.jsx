@@ -15,18 +15,12 @@ const Main = () => {
   return (
     <div className="main">
       <section className="section-1">
-        <section className="glass-wrapper" data-aos="fade-down">
+        <section className="glass-wrapper" data-aos="fade-up">
           <div className="me">
             <h1>
               <span>Hi, I'm Success Hycenth.</span>I'm a Web Developer and UI/UX
               designer.
             </h1>
-            <p>
-              I have worked with a number of client, both independently and
-              through agencies, sometimes am fortunate to win some awards &
-              recorgnition Currently improving customer & user experiences as a
-              Lead developer in a Real Estate Project
-            </p>
 
             <CustomButton primary="true">
               <Link to="/about">Explore</Link>

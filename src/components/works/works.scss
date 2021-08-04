@@ -1,5 +1,3 @@
-/** @format */
-
 #container {
   margin: 8em 0;
   display: grid;
@@ -8,10 +6,44 @@
   grid-template-columns: 1fr 1fr;
   cursor: pointer;
   width: 60em;
+  align-items: center;
+
+  #buttons {
+    display: none;
+
+    @media screen and (max-width: 989px) {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      margin: 0rem 2rem 2rem 0rem;
+      align-items: center;
+      justify-content: space-around;
+      overflow: hidden;
+
+      button {
+        background-color: rgb(40, 40, 51);
+        border: none;
+        height: 2rem;
+        width: 5rem;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        a {
+          color: cyan;
+          text-decoration: none;
+        }
+}
+    }
+  }
 
   @media screen and (max-width: 989px) {
     $border-color: rgba(rgb(41, 41, 41), 1);
-    width: 90%;
+    width: clamp(360px, 60vw, 600px);
     min-height: 250px;
     position: relative;
     padding: 15px;
@@ -20,12 +52,14 @@
 
     font-size: small;
     display: inline-block;
-  }
+}
   .image {
+    
     @media screen and (max-width: 989px) {
       overflow: hidden;
       display: flex;
       position: relative;
+      
       img {
         min-width: 100%;
         height: 100%;
@@ -40,12 +74,15 @@
         width: 100%;
         height: 12%;
         font-size: xx-large;
+        overflow: hidden;
         display: flex;
         align-items: center;
         justify-content: start;
         padding-left: 2rem;
         color: rgb(105, 250, 255);
       }
+
+      
     }
   }
 
@@ -79,9 +116,15 @@
       justify-content: flex-start;
       display: flex;
 
+      @media screen and (max-width: 989px) {
+        display: block;
+      }
+
       #button {
         margin: 1rem;
       }
+
+
 
       h1 {
         display: none;

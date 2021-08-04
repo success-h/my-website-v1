@@ -8,7 +8,7 @@ import "./works.scss";
 
 const Works = ({ name, text, imageUrl, site, source }) => {
   useEffect(() => {
-    Aos.init({ duration: 2000, offset: 150 });
+    Aos.init({ duration: 2000, offset: 400 });
   }, []);
 
   return (
@@ -31,6 +31,14 @@ const Works = ({ name, text, imageUrl, site, source }) => {
           </CustomButton>
         </div>
       </div>
+      <div id="buttons">
+          <button primary="true" className="button">
+            <a href={site}>View Site</a>
+          </button>
+          <button id="button">
+            <a href={source}>Source</a>
+          </button>
+        </div>
     </body>
   );
 };

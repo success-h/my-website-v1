@@ -3,7 +3,7 @@
 export const WORKS_DATA = [
   {
     name: "Crown Clothing",
-    text: "Crown Clothing, An Ecommerce application with full functionalities of Modern Front-End web apps built with React.js and other libraries.",
+    text: "Imaginary e-commerce clothing store with full functionalities of Modern Front-End web apps built with React.js and other libraries. features includes payment with stripe, redux for global state management, firebase",
     imageUrl:
       "https://res.cloudinary.com/dp3a4be7p/image/upload/v1621261163/website/crown_hzb4dp.png",
     id: 1,
@@ -12,7 +12,7 @@ export const WORKS_DATA = [
   },
   {
     name: "MovieTime",
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cumque debitis quis facere quos molestias cum magni deleniti ipsum sed.",
+    text: "A React.js real time project for booking movie tickets from a fictional cinema. It features movie trailers, rating, description, online payment and email notifications.",
     imageUrl:
       "https://res.cloudinary.com/dp3a4be7p/image/upload/v1621261163/website/movie_m4s165.png",
     id: 2,
@@ -21,7 +21,7 @@ export const WORKS_DATA = [
   },
   {
     name: "Cleanfits",
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cumque debitis quis facere quos molestias cum magni deleniti ipsum sed.",
+    text: "Imaginary Beautiful Dry cleaning web application made with React.js, t lets users book cleaning appointments, track delivery and pay online.",
     imageUrl:
       "https://res.cloudinary.com/dp3a4be7p/image/upload/v1621261378/website/cleanfit_skkpoh.png",
     id: 3,
@@ -30,7 +30,7 @@ export const WORKS_DATA = [
   },
   {
     name: "Image Gallery",
-    text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi cumque debitis quis facere quos molestias cum magni deleniti ipsum sed.",
+    text: "A beautiful Image showcase made with React.js",
     imageUrl:
       "https://res.cloudinary.com/dp3a4be7p/image/upload/v1621261163/website/image_pwilua.png",
     id: 4,

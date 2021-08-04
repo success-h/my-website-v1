@@ -16,13 +16,13 @@
     flex-direction: column;
     .icons {
       display: flex;
-      li {
-        padding: 0em 2em;
-        color: white;
-        .icon {
-          width: 30px;
-          height: 30px;
-        }
+      width: 9em;
+      justify-content: space-between;
+      .icon {
+        font-size: x-large;
+        width: 30px;
+        height: 30px;
+        color: rgb(169, 185, 185);
       }
     }
   }

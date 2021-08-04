@@ -20,15 +20,15 @@ const Contact = () => {
 
           <p>you can also find me on</p>
           <div className="icons">
-            <FaFacebook className="icon">
-              <a href=""></a>
-            </FaFacebook>
-            <FaGithub className="icon">
-              <a href=""></a>
-            </FaGithub>
-            <FaLinkedin className="icon">
-              <a href=""></a>
-            </FaLinkedin>
+            <a href="https://web.facebook.com/sucesshycenth">
+              <FaFacebook className="icon" />
+            </a>
+            <a href="https://github.com/success-h">
+              <FaGithub className="icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/hycenth-success-a57556204/">
+              <FaLinkedin className="icon" />
+            </a>
           </div>
         </div>
       </div>

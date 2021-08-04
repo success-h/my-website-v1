@@ -7,17 +7,17 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="content-wrap">
-        <ul className="icons">
-          <li>
-            <FaFacebook className='icon' />
-          </li>
-          <li>
-            <FaGithub className='icon' />
-          </li>
-          <li>
-            <FaLinkedin className='icon'/>
-          </li>
-        </ul>
+        <div className="icons">
+            <a href="https://web.facebook.com/sucesshycenth">
+              <FaFacebook className="icon" />
+            </a>
+            <a href="https://github.com/success-h">
+              <FaGithub className="icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/hycenth-success-a57556204/">
+              <FaLinkedin className="icon" />
+            </a>
+          </div>
         <h1 className="my-name">SUCCESS HYCENTH</h1>
         <p>&copy; 2021 Success Hycenth</p>
       </div>

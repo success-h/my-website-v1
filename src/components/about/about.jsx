@@ -23,19 +23,39 @@ const About = () => {
         <div className="text" data-aos="fade-up">
           <h1>Hello there, I'm Success Hycenth.</h1>
           <p>
-            I’m a Web Developer with 2years of experience, UI/UX Designer, and a
-            Social Media lover. <br /> <br /> I have worked with a number of
-            client, both independently and through agencies, sometimes am
-            fortunate to win some awards & recorgnition Currently improving
-            customer & user experiences as a Lead developer in a Real Estate
-            Project.
-            <br /> <br /> I spend most of my free time improving my coding
-            skills, I also hit the Jym, and do some other fun activities when I
-            don't feel like coding. <br /> <br /> Occasionally, I enjoy building
-            solutions for both organizations and open-source.
+            I’m a Front End Web Developer with 3years Learning experience, UI/UX
+            Designer, and a Social Media lover. <br /> <br /> I have worked on
+            many personal projects independently to build up my skils, I enjoy
+            being challanged.
+            <br /> <br />
+            <h2>From Nobody to Becoming a Web Developer</h2>
+            <p>
+              I finished High School 2018, with my previous knowledge of
+              computer I got a job in a printing firm at <b>Kay Digitals</b>, I
+              helped clients to better illustrate a better picture of their
+              ideas with softwares like Adobe PhotoShop, Corel Draw and Adobe
+              Illustrator.
+              <br /> Kay Digitals is a printing firm that is mostly focused on
+              dsigns and digital image printings DI, and other forms of
+              printing, I worked for months then I resigned to start my carrier
+              as a self taught software developer
+            </p>
+            <br />
+            <h2>Technoogy Stack</h2>
+            <p>
+              <b>Programming Languages:</b> <br />
+              <li>Javascript</li>
+              <b>Web Technologies:</b> <br />
+              <li>React.js</li>
+              <li> HTML & CSS</li>
+              <b>Design Tools:</b>
+              <li>Figma</li>
+              <li>Adobe Photoshop</li>
+              <li>Corel Draw</li>
+            </p>
+            <br />
           </p>
           <CustomButton className="button" primary="true">
-            {" "}
             <Link to="/contact"> Hire Me</Link>
           </CustomButton>
         </div>
