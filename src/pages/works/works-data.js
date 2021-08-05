@@ -3,7 +3,7 @@
 export const WORKS_DATA = [
   {
     name: "Crown Clothing",
-    text: "Imaginary e-commerce clothing store with full functionalities of Modern Front-End web apps built with React.js and other libraries. features includes payment with stripe, redux for global state management, firebase",
+    text: "Imaginary e-commerce clothing store with full functionalities of Modern Front-End web apps built with React.js and other libraries. features includes payment with stripe, redux for global state management and firebase.",
     imageUrl:
       "https://res.cloudinary.com/dp3a4be7p/image/upload/v1621261163/website/crown_hzb4dp.png",
     id: 1,
