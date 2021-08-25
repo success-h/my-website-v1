@@ -8,4 +8,4 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     transition: all 0.5s linear;
   }
-  `;
+`;

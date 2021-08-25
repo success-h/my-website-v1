@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 768px) {
   .nav-menu {
-    background-color: rgba(228, 228, 250, 0);
+    background-color: rgba(8, 8, 8, 0.274);
     backdrop-filter: blur(2rem);
     display: flex;
     height: 100vh;

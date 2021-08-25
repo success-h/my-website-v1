@@ -17,6 +17,10 @@
     width: 96vw;
     overflow: hidden;
 
+    @media screen and (max-width: 689px) {
+      margin-top: 6rem;
+    }
+
     .image {
       object-fit: cover;
       align-self: flex-start;
@@ -41,7 +45,7 @@
       padding: 1.3em;
 
       h1 {
-        font-size: clamp(2rem, 5.3vw, 3rem);
+        font-size: clamp(1rem, 5.3vw, 2rem);
         font-family: "Poppins", sans-serif;
         padding: 10px 0px;
       }
@@ -52,6 +56,10 @@
       }
       b {
         font-size: 0.9em;
+
+        li {
+          line-height: 1px;
+        }
       }
 
       p {

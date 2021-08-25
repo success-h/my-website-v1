@@ -9,7 +9,7 @@ const WorkPage = () => {
   return (
     <div className="works">
       <div className="space"></div>
-      {workData.map(({ name, text, id, imageUrl, site, source }) => (
+      {workData.map(({ name, text, id, imageUrl, site, source, alt }) => (
         <Works
           key={id}
           name={name}

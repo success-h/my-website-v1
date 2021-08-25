@@ -18,12 +18,12 @@ import Footer from "./components/footer/footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const [theme, setTheme] = useState("light");
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
-  const [theme, setTheme] = useState("light");
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
@@ -31,8 +31,8 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-        <GlobalStyles />
         <div>
+          <GlobalStyles />
           <Navbar toggle={toggle} theme={themeToggler} />
           <Sidebar isOpen={isOpen} toggle={toggle} />
           <Switch>

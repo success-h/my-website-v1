@@ -1,21 +1,13 @@
-/** @format */
-
 import CustomButton from "../custom-button/custom-button";
 import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import "./works.scss";
 
-const Works = ({ name, text, imageUrl, site, source }) => {
-  useEffect(() => {
-    Aos.init({ duration: 2000, offset: 400 });
-  }, []);
-
+const Works = ({ name, text, imageUrl, site, source, alt }) => {
   return (
-    <body id="container" data-aos="fade-up">
+    <body id="container">
       <div className="image">
-        <img src={imageUrl} alt="image" />
-        <h1>{name}</h1>
+        <img src={imageUrl} alt={alt} />
+        <h3>{name}</h3>
       </div>
       <div className="text">
         <div id="text-container">

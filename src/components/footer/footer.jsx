@@ -17,7 +17,7 @@ const Footer = () => {
             <FaLinkedin className="icon" />
           </a>
         </div>
-        <h1 className="my-name">SUCCESS HYCENTH</h1>
+        <h3 className="my-name">SUCCESS HYCENTH</h3>
         <p>&copy; 2021 Success Hycenth</p>
       </div>
     </div>

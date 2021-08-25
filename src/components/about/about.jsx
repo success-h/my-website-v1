@@ -2,29 +2,15 @@
 import CustomButton from "../custom-button/custom-button";
 import "./about.scss";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-const profileImage = require("../../image/profile.jpg");
 
 const About = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1700, offset: 400 });
-  }, []);
   return (
     <div className="about-container">
       <div className="content">
-        <img
-          className="image"
-          src={profileImage.default}
-          data-aos="slide-left"
-          alt="my image"
-        />
-
-        <div className="text" data-aos="fade-up">
+        <div className="text">
           <h1>Hello there, I'm Success Hycenth.</h1>
           <p>
-            I’m a Front End Web Developer with 3years Learning experience, UI/UX
+            I’m a Front End Web Developer with 2years Learning experience, UI/UX
             Designer, and a Social Media lover. <br /> <br /> I have worked on
             many personal projects independently to build up my skils, I enjoy
             being challanged.
@@ -44,14 +30,14 @@ const About = () => {
             <h2>Technoogy Stack</h2>
             <p>
               <b>Programming Languages:</b> <br />
-              <li>Javascript</li>
+              <div>Javascript</div>
               <b>Web Technologies:</b> <br />
-              <li>React.js</li>
-              <li> HTML & CSS</li>
+              <div>React.js</div>
+              <div> HTML & CSS</div>
               <b>Design Tools:</b>
-              <li>Figma</li>
-              <li>Adobe Photoshop</li>
-              <li>Corel Draw</li>
+              <div>Figma</div>
+              <div>Adobe Photoshop</div>
+              <div>Corel Draw</div>
             </p>
             <br />
           </p>

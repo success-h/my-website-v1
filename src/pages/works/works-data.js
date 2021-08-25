@@ -9,6 +9,7 @@ export const WORKS_DATA = [
     id: 1,
     site: "https://crwn-clothing-navy-ten.vercel.app/",
     source: "https://github.com/success-h/crown-clothing",
+    alt: "clothing image",
   },
   {
     name: "MovieTime",
@@ -18,6 +19,7 @@ export const WORKS_DATA = [
     id: 2,
     site: "http://movietimesng.herokuapp.com/",
     source: "https://github.com/success-h/movietime",
+    alt: "movietime image",
   },
   {
     name: "Cleanfits",
@@ -27,6 +29,7 @@ export const WORKS_DATA = [
     id: 3,
     site: "http://cleanfits.herokuapp.com/",
     source: "https://github.com/success-h/cleanfits",
+    alt: "cleanfit image",
   },
   {
     name: "Image Gallery",
@@ -36,5 +39,6 @@ export const WORKS_DATA = [
     id: 4,
     site: "https://success-image-gallary.netlify.app",
     source: "https://github.com/success-h/image-gallery",
+    alt: "galary image",
   },
 ];
