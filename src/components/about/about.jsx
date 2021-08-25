@@ -32,9 +32,8 @@ const About = () => {
             <p>
               I finished High School 2018, with my previous knowledge of
               computer I got a job in a printing firm at <b>Kay Digitals</b>, I
-              helped clients to better illustrate a better picture of their
-              ideas with softwares like Adobe PhotoShop, Corel Draw and Adobe
-              Illustrator.
+              helped clients to better illustrate a picture of their ideas with
+              softwares like Adobe PhotoShop, Corel Draw and Adobe Illustrator.
               <br /> Kay Digitals is a printing firm that is mostly focused on
               dsigns and digital image printings DI, and other forms of
               printing, I worked for months then I resigned to start my carrier
