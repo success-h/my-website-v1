@@ -32,13 +32,13 @@ const Works = ({ name, text, imageUrl, site, source }) => {
         </div>
       </div>
       <div id="buttons">
-          <button primary="true" className="button">
-            <a href={site}>View Site</a>
-          </button>
-          <button id="button">
-            <a href={source}>Source</a>
-          </button>
-        </div>
+        <button primary="true" className="button">
+          <a href={site}>View Site</a>
+        </button>
+        <button id="button">
+          <a href={source}>Source</a>
+        </button>
+      </div>
     </body>
   );
 };

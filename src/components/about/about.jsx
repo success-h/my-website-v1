@@ -9,7 +9,7 @@ const profileImage = require("../../image/profile.jpg");
 
 const About = () => {
   useEffect(() => {
-    Aos.init({ duration: 1700, offset: 300 });
+    Aos.init({ duration: 1700, offset: 400 });
   }, []);
   return (
     <div className="about-container">
