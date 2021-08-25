@@ -1,13 +1,12 @@
 /** @format */
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Sidebar from "../side-bar/side-bar";
 import { BsMoon } from "react-icons/bs";
 import "./navbar.css";
 import mylogo from "../../image/mylogo.svg";
 
-
-const StyledLink = styled(NavLink)`
+const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 const Navbar = ({ toggle, theme }) => {
@@ -33,7 +32,9 @@ const Navbar = ({ toggle, theme }) => {
 
       <div className="menu-bar">
         <BsMoon id="toggle-theme" onClick={theme} primary="true" />
-        <div className="toggle-theme" onClick={toggle}>x</div>
+        <div className="toggle-theme" onClick={toggle}>
+          x
+        </div>
       </div>
     </div>
   );

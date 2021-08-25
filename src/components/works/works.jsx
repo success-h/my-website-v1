@@ -14,7 +14,7 @@ const Works = ({ name, text, imageUrl, site, source }) => {
   return (
     <body id="container" data-aos="fade-up">
       <div className="image">
-        <img src={imageUrl} />
+        <img src={imageUrl} alt="image" />
         <h1>{name}</h1>
       </div>
       <div className="text">

@@ -18,6 +18,7 @@ const About = () => {
           className="image"
           src={profileImage.default}
           data-aos="slide-left"
+          alt="my image"
         />
 
         <div className="text" data-aos="fade-up">
